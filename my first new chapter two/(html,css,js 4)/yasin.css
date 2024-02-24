@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+#mainDiv {
+    width: 50%;
+}
+#computerImg {
+    width: 40%;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transition: 1s;
+}
+#shapeImg {
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transition: 1s;
+}
+#mainDiv:hover #computerImg {
+    right: 40px;
+}
+#mainDiv:hover #shapeImg {
+    top: 10px;
+}

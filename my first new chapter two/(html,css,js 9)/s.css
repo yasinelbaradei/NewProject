@@ -1,0 +1,21 @@
+#divA {
+    background-color: red;
+    height: 50px;
+    display: inline-block;
+    width: calc((100% - 30px) / 3);
+    margin: 5px;
+}
+#divB {
+    background-color: blue;
+    height: 50px;
+    display: inline-block;
+    width: calc((100% - 30px) / 3);
+    margin: 5px;
+}
+#divC {
+    background-color: yellow;
+    height: 50px;
+    display: inline-block;
+    width: calc((100% - 30px) / 3);
+    margin: 5px;
+}

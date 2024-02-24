@@ -1,0 +1,13 @@
+html {
+    --first-color: red;
+    --first-font: 45px;
+}
+
+
+h1 {
+    color: var(--first-color);
+}
+
+h3 {
+        font-size: var(--first-font);
+}

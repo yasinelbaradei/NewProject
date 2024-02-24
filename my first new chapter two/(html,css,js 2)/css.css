@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+#topDiv {
+    background-image: linear-gradient(skyblue, white);
+    height: 30vh;
+}
+#imgCloud {
+    width: 20%;
+    max-width: 200px;
+    animation-name: yasin1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes yasin1 {
+    from {
+        transform: translate(-110%, 0px);
+    }
+    to {
+        transform: translate(100vw, 50px);
+    }
+}
